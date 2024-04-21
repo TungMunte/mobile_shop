@@ -128,7 +128,7 @@ public class AuthServiceImpl implements AuthService {
         Content content = new Content("text/plain", url);
         Mail mail = new Mail(from, subject, to, content);
 
-        SendGrid sg = new SendGrid("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");
+        SendGrid sg = new SendGrid("");
         Request request = new Request();
         try {
             request.setMethod(Method.POST);
